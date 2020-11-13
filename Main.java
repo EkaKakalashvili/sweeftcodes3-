@@ -13,7 +13,7 @@ public class Main {
         for(int i=0;i<length;i++){
             array[i] = s.nextInt();
         }
-        System.out.println("Minimum positive value in this massive is: " + notContains(array));
+        System.out.println("Minimum positive value which is not in this massive is: " + notContains(array));
     }
     public static int notContains(int[] array){
         //Arrays.sort(array);
