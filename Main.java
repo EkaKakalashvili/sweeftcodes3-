@@ -7,10 +7,10 @@ public class Main {
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
         System.out.println("Size of the massive is: ");
-        int size= s.nextInt();
+        int length= s.nextInt();
         System.out.println("Enter the elements of massive: ");
         int[] array = new int[length];
-        for(int i=0;i<size;i++){
+        for(int i=0;i<length;i++){
             array[i] = s.nextInt();
         }
         System.out.println("Minimum positive value in this massive is: " + notContains(array));
